@@ -1,0 +1,33 @@
+Running suite graphics
+graphics_suite.c:117:P:noFilter_untouched:noFilter_untouched:0: Passed
+graphics_suite.c:123:P:greyscaleFilter_white:greyscaleFilter_white:0: Passed
+graphics_suite.c:129:P:greyscaleFilter_black:greyscaleFilter_black:0: Passed
+graphics_suite.c:135:P:greyscaleFilter_green:greyscaleFilter_green:0: Passed
+graphics_suite.c:141:P:greyscaleFilter_cyan:greyscaleFilter_cyan:0: Passed
+graphics_suite.c:147:P:greyscaleFilter_darkpurple:greyscaleFilter_darkpurple:0: Passed
+graphics_suite.c:153:P:redOnlyFilter_white:redOnlyFilter_white:0: Passed
+graphics_suite.c:159:P:redOnlyFilter_black:redOnlyFilter_black:0: Passed
+graphics_suite.c:165:P:redOnlyFilter_green:redOnlyFilter_green:0: Passed
+graphics_suite.c:171:P:redOnlyFilter_cyan:redOnlyFilter_cyan:0: Passed
+graphics_suite.c:177:P:redOnlyFilter_darkpurple:redOnlyFilter_darkpurple:0: Passed
+graphics_suite.c:183:P:brighterFilter_white:brighterFilter_white:0: Passed
+graphics_suite.c:189:P:brighterFilter_black:brighterFilter_black:0: Passed
+graphics_suite.c:195:P:brighterFilter_green:brighterFilter_green:0: Passed
+graphics_suite.c:201:P:brighterFilter_darkgreen:brighterFilter_darkgreen:0: Passed
+graphics_suite.c:207:P:brighterFilter_darkpurple:brighterFilter_darkpurple:0: Passed
+graphics_suite.c:221:P:drawPixel_simple:drawPixel_simple:0: Passed
+graphics_suite.c:234:P:drawPixel_outofbounds:drawPixel_outofbounds:0: Passed
+graphics_suite.c:247:P:drawFilledRectangle_simple:drawFilledRectangle_simple:0: Passed
+graphics_suite.c:259:P:drawFilledRectangle_outofbounds:drawFilledRectangle_outofbounds:0: Passed
+graphics_suite.c:275:P:drawCircle_simple:drawCircle_simple:0: Passed
+graphics_suite.c:289:P:drawCircle_outofbounds:drawCircle_outofbounds:0: Passed
+graphics_suite.c:301:P:drawImage_nocrop_simple:drawImage_nocrop_simple:0: Passed
+graphics_suite.c:313:P:drawImage_nocrop_outofbounds:drawImage_nocrop_outofbounds:0: Passed
+graphics_suite.c:325:P:drawImage_nocrop_withfilter:drawImage_nocrop_withfilter:0: Passed
+graphics_suite.c:338:P:drawImage_withcrop_simple:drawImage_withcrop_simple:0: Passed
+graphics_suite.c:342:E:drawImage_withcrop_outofbounds:drawImage_withcrop_outofbounds:0: (after this point) Received signal 11 (Segmentation fault)
+graphics_suite.c:384:P:drawImage_withcrop_withfilter:drawImage_withcrop_withfilter:0: Passed
+graphics_suite.c:395:P:rotateImage_simple:rotateImage_simple:0: Passed
+graphics_suite.c:406:P:rotateImage_withfilter:rotateImage_withfilter:0: Passed
+Results for all suites run:
+96%: Checks: 30, Failures: 0, Errors: 1
